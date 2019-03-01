@@ -47,6 +47,7 @@ public class MirrorRorriM {
                 }
                 // turn test false so that the program ends
                 test = false;
+                in.close();
             }
             // This will catch an exception where the file the user inputs is not found
             catch (FileNotFoundException e)
